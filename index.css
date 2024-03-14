@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 .header {
-    background-color: #0fb1d3;
+    background-color: #0e3c46;
     padding: 30px 40px;
     color: white;
     width: 100%;
     text-align: center;
+    margin-left: 0 !important;
+}
+.header h2{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 input {
     text-align: center;
@@ -27,19 +33,25 @@ input {
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    transition: all 1s ease-in-out 50ms;
-    border-radius: 10px;
+    transition: all 0.8s ease-in-out 50ms;
+    border-radius: 15px;
 }
 .addBtn:hover {
     background-color: #d3b83cc2;
-}  
+}
+.main-bac-stl{
+    background-image: url(./images/to-do-list-seamless-pattern-background-business-vector-20181573.jpg);
+}
 .list-stl li {
     cursor: pointer;
     position: relative;
     padding: 2vh 1vw 1.5vh 4vw;
     background: #eee;
     font-size: 18px;
-    transition: all 0.5s ease-in-out 50ms;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease-in-out 25ms;
 }
 .list-stl li:hover {
     background: #ddd;
